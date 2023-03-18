@@ -40,11 +40,9 @@ if __name__ == '__main__':                                              # Runs t
     # Generates list of 10 numbers between 1 and 100, allowing duplicates :
     number_list = np.random.choice(100, size = 10, replace = True)
 
-    print("Generated list: ", number_list)            # Prints generated list to compare that functions work as expected
+    print("Generated list: ", number_list)        # Prints generated list to compare that functions work as expected
 
     formatted_list = format_number_list(number_list)    # Calls formatting function to generated list
 
     print("Formatted list : ", formatted_list)          # Prints formatted list to terminal
-
-
-
+    
